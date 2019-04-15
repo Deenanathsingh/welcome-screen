@@ -12,5 +12,9 @@ public class HelloController {
 		return "Hello "+name;
 	}
 	
+	@RequestMapping("/")
+	public String defaulty() {
+		return "main";
+	}
 
 }
